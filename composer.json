@@ -1,5 +1,5 @@
 {
-    "name": "boorj/silex-mthaml",
+    "name": "mthaml/silex-mthaml",
     "description": "HAML templating for Silex",
     "require": {
         "mthaml/mthaml": "1.*"
