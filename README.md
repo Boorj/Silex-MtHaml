@@ -1,4 +1,10 @@
 
+About this version
+===
+This version is updated from original original source to support 1.27+ twig, which now gives `$code` to middleware MtHaml lexer as an instance of `Twig_Source`, not as a string.
+
+---
+
 # Silex-MtHaml
 
 [HAML][haml] templating for Silex using the [MtHaml PHP HAML parser][mthaml].
