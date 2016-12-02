@@ -1,6 +1,6 @@
 <?php
-
 namespace SilexMtHaml;
+
 use \Twig_Source;
 use MtHaml\Environment;
 
@@ -27,6 +27,7 @@ class Lexer implements \Twig_LexerInterface
         if (null !== $filename && preg_match('/\.haml$/', $filename)) {
             $code = $this->environment->compileString($code, $filename);
         }
+
         $source = new Twig_Source($code, $filename);
         return $this->lexer->tokenize($source);
     }
